@@ -1,0 +1,31 @@
+.sideNav {
+    position: fixed;
+    top: 22rem;
+    left: 5rem;
+    transition: opacity 2s ease-out;
+}
+
+.sideNav ul {
+    list-style: none;
+}
+
+.invisible {
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.active {
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: font-size .125s ease-out;
+}
+
+.inactive {
+    font-weight: normal;
+    transition: font-size .125s ease-in;
+}
+
+.sideNav a:hover {
+    font-size: 1.2rem;
+    transition: font-size .125s ease-in-out;
+}

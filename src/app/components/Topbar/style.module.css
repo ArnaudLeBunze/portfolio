@@ -1,0 +1,36 @@
+.topBar {
+  position: fixed;
+  top: 20px;
+  left: 1.5rem;
+  width: 100vh;
+  display: flex;
+  justify-content: space-between;
+  transition: opacity 2s ease-out;
+}
+
+.subGroup {
+  display: grid;
+  width: 15rem;
+}
+
+.topBar h1 {
+  font-size: 1.2rem;
+}
+
+.topBar h2 {
+  font-weight: 350;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.topBar hr {
+  justify-self: center;
+  height: 0px;
+  width: 98%;
+  border: solid .0225rem var(--gray-alpha-200);
+}
+
+.invisible {
+  opacity: 0;
+  transition: opacity .5s;
+}
