@@ -4,6 +4,7 @@
   left: 0;
   width: 100vw;
   display: flex;
+  padding: 1rem;
   justify-content: space-between;
   transition: opacity 2s ease-out;
 }

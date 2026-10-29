@@ -30,7 +30,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  padding: 50svh 0 30svh 0;
+  padding: 30svh 0 30svh 0;
   gap: 50svh;
 }
 
