@@ -1,27 +1,18 @@
 [
     {
         "id": "1",
-        "title": "a propos de moi",
-        "content": "I'm ass"
+        "title": "a propos de moi"
     },
     {
         "id": "2",
-        "title": "projets",
-        "content": "None"
+        "title": "projets"
     },
     {
         "id": "3",
-        "title": "cv",
-        "content": "it sucks"
+        "title": "social"
     },
     {
         "id": "4",
-        "title": "social",
-        "content": "nope"
-    },
-    {
-        "id": "5",
-        "title": "contact",
-        "content": "form"
+        "title": "contact"
     }
 ]
