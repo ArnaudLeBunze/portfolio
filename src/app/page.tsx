@@ -61,7 +61,7 @@ export default function Home() {
                 <p className="text-right">Développeur web</p>
               </div>
               <div className="mt-3 w-[16rem] h-[19rem] rounded-md bg-white/10 backdrop-blur-xs grid font-mono font-sans">
-                <a href="/public/files/cv_arnaud_lebunze.pdf" download="cv-arnaudLeBunze">
+                <a href="/public/files/cv_arnaud_lebunze.pdf" download="cv-arnaudLeBunze" target="_blank">
                   <button type="button" className="w-full h-full grid justify-center items-center">
                     <img className=" rounded-md w-[13rem]" src={cv.src} alt="cv" />
                   </button>
